@@ -26,7 +26,7 @@ var overCosto = ((costo * 40) / 100)
 
 if (eta < 18) {
   document.getElementById('biglietto').innerHTML = underCosto;
-} else if (eta > 65) {
+} else if (eta >= 65) {
   document.getElementById('biglietto').innerHTML = overCosto;
 } else {
   document.getElementById('biglietto').innerHTML = costo;

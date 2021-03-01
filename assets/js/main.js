@@ -2,7 +2,7 @@
 
 var km = prompt("Quanti chilometri percorrerai?");
 
-document.getElementById('km').innerHTML = km;
+document.getElementById('km').innerHTML = km + "km";
 
 var eta = parseInt(prompt("Quanti anni hai?"));
 

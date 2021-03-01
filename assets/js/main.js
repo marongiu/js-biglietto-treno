@@ -27,9 +27,9 @@ var overCosto = (costo - over);
 
 
 if (eta < 18) {
-  document.getElementById('biglietto').innerHTML =  Math.floor(underCosto);
+  document.getElementById('biglietto').innerHTML =  Math.floor(underCosto) + "€";
 } else if (eta >= 65) {
-  document.getElementById('biglietto').innerHTML =  Math.floor(overCosto);
+  document.getElementById('biglietto').innerHTML =  Math.floor(overCosto) + "€";
 } else {
-  document.getElementById('biglietto').innerHTML =  Math.floor(costo);
+  document.getElementById('biglietto').innerHTML =  Math.floor(costo) + "€";
 }
